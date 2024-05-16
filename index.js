@@ -3,7 +3,7 @@ const axios = require("axios");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Random Image API!");
+  res.send("Welcome to the Random Joke API!");
 });
 
 app.get("/api/joke/random", async (req, res) => {
